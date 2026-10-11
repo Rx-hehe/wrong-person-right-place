@@ -36,9 +36,7 @@ function App() {
   const [mbtiAnswers, setMbtiAnswers] = useState(['', '', '', ''])
   const [setupComplete, setSetupComplete] = useState(false)
 
-  const mbti = knowsMBTI
-      ? selectedMBTI
-      : mbtiAnswers.join('')
+  
 
   const roomAvailable = Number(budget) >= 200
 
